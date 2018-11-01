@@ -25,4 +25,17 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    //public function profile()
+    //{
+        // $users = User::all();
+        //$user = Auth::user();
+      //  $post = new Post();
+      //  $post->title = 'My Post';
+       // $post->body = 'Another body';
+        //$user->posts()->save($post);
+        //you need to call posts to retrieve records without the ()
+        //$posts = $user->posts;
+     //   return view('profile', ['posts' => $posts]);
+   // }
+
 }
